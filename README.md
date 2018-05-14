@@ -6,9 +6,14 @@ For a full explanation of Quest++ and relevant installation instructions and tut
 # Modifications to the code include:
 
 Addition of the following files:
-**/config/config.sentence-level_es_sim_interp.properties** as an example modification of existing sentence level configuration for use with interpreter features,
+
+**/config/config.sentence-level_es_sim_interp.properties** as an example modification of existing sentence level configuration for use with interpreter features
 
 **/config/features/features_sim_interp.xml** being the feature configuration file reflecting the experimental setup in Stewart et al (2018)<sup>2</sup>
+
+**src/shef/mt/features/impl/bb/Feature[7001-7007].java** representing the individual implemented features
+
+Modifications to **src/shef/mt/features/tools/SentenceLevelProcessorFactory.java** to reflect new feature implementation
 
 # References
 
